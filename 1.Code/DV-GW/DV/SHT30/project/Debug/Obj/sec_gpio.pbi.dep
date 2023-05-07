@@ -1,0 +1,5 @@
+sec_gpio.pbi: \
+  C:\Users\Admin\Desktop\Test_SEC\SEC_copy\DV-GW\DV\SHT30\user\sec_gpio.c \
+  C:\Users\Admin\Desktop\Test_SEC\SEC_copy\DV-GW\DV\SHT30\user/sec_gpio.h \
+  C:\Users\Admin\Desktop\Test_SEC\SEC_copy\DV-GW\DV\SHT30\project\..\library\stm8s.h \
+  E:\IAR\stm8\inc\c\intrinsics.h

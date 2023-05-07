@@ -1,0 +1,22 @@
+main.pbi: \
+  C:\Users\Admin\Desktop\Test_SEC\SEC_copy\DV-GW\DV\SHT30\user\main.c \
+  C:\Users\Admin\Desktop\Test_SEC\SEC_copy\DV-GW\DV\SHT30\user/sec_sys.h \
+  E:\IAR\stm8\inc\c\math.h E:\IAR\stm8\inc\c\ycheck.h \
+  E:\IAR\stm8\inc\c\ymath.h E:\IAR\stm8\inc\c\yvals.h \
+  E:\IAR\stm8\inc\c\DLib_Defaults.h E:\IAR\stm8\LIB\dlstm8smn.h \
+  E:\IAR\stm8\inc\c\DLib_Product.h E:\IAR\stm8\inc\c\xencoding_limits.h \
+  E:\IAR\stm8\inc\c\DLib_Threads.h E:\IAR\stm8\inc\c\xtgmath.h \
+  C:\Users\Admin\Desktop\Test_SEC\SEC_copy\DV-GW\DV\SHT30\project\..\library\stm8s.h \
+  E:\IAR\stm8\inc\c\intrinsics.h E:\IAR\stm8\inc\c\stdio.h \
+  E:\IAR\stm8\inc\c\ysizet.h E:\IAR\stm8\inc\c\ystdio.h \
+  E:\IAR\stm8\inc\c\string.h \
+  C:\Users\Admin\Desktop\Test_SEC\SEC_copy\DV-GW\DV\SHT30\user/sec_i2c.h \
+  C:\Users\Admin\Desktop\Test_SEC\SEC_copy\DV-GW\DV\SHT30\user/sec_time.h \
+  C:\Users\Admin\Desktop\Test_SEC\SEC_copy\DV-GW\DV\SHT30\user/sec_uart.h \
+  C:\Users\Admin\Desktop\Test_SEC\SEC_copy\DV-GW\DV\SHT30\user/sec_gpio.h \
+  C:\Users\Admin\Desktop\Test_SEC\SEC_copy\DV-GW\DV\SHT30\user/sec_delay.h \
+  C:\Users\Admin\Desktop\Test_SEC\SEC_copy\DV-GW\DV\SHT30\user/sec_sht30.h \
+  C:\Users\Admin\Desktop\Test_SEC\SEC_copy\DV-GW\DV\SHT30\user/sec_answer.h \
+  C:\Users\Admin\Desktop\Test_SEC\SEC_copy\DV-GW\DV\SHT30\user/sec_message.h \
+  E:\IAR\stm8\inc\c\stdint.h \
+  C:\Users\Admin\Desktop\Test_SEC\SEC_copy\DV-GW\DV\SHT30\user/sec_convert.h
