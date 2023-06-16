@@ -2,8 +2,8 @@
 
 
 sec_FrameMsg_t frame_sensor_detect;
-static uint8_t Port_Number_Old = 0, Port_Number_New = 0;
 static float data_sensor;
+static uint8_t Port_Number_Old = 0, Port_Number_New = 0;
 
 /*----------------------------------------------------------------------------*/
 /*-------------------- Ham gui loai SenSor len STM32 -------------------------*/
@@ -80,8 +80,9 @@ void SEC_Send_Anwser_DataSensor(void)
 /*----------------------------------------------------------------------------*/
 void SEC_Anwser_DataSensor(void)
 {
-    data_sensor = 25.5;
-    uint8_t *data_float_to_byte = Sec_Convert_From_Float_To_Bytes(data_sensor);  
+    data_sensor = SEC_GetDataSensorNTC10K(adc_ain3_data);  
+    
+    uint8_t *data_float_to_byte = Sec_Convert_From_Float_To_Bytes(data_sensor);
     
     frame_sensor_detect.Data[0]   = SENSOR_NTC;
     
@@ -90,6 +91,7 @@ void SEC_Anwser_DataSensor(void)
     frame_sensor_detect.Data[3]   = data_float_to_byte[2];
     frame_sensor_detect.Data[4]   = data_float_to_byte[3];
 }
+
 
 
 /*----------------------------------------------------------------------------*/

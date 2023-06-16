@@ -1,5 +1,5 @@
 stm8s_it.pbi: \
-  C:\Users\Admin\Desktop\Test_SEC\SEC_copy\DV-GW\DV\SHT30\library\stm8s_it.c \
-  C:\Users\Admin\Desktop\Test_SEC\SEC_copy\DV-GW\DV\SHT30\library/stm8s_it.h \
-  C:\Users\Admin\Desktop\Test_SEC\SEC_copy\DV-GW\DV\SHT30\library/stm8s.h \
+  C:\Users\Admin\Desktop\Surveillance_equipment_Clover-1\1.Code\DV-GW\DV\SHT30\library\stm8s_it.c \
+  C:\Users\Admin\Desktop\Surveillance_equipment_Clover-1\1.Code\DV-GW\DV\SHT30\library/stm8s_it.h \
+  C:\Users\Admin\Desktop\Surveillance_equipment_Clover-1\1.Code\DV-GW\DV\SHT30\library/stm8s.h \
   E:\IAR\stm8\inc\c\intrinsics.h

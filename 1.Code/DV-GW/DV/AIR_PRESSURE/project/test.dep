@@ -1,0 +1,681 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>4</fileVersion>
+    <fileChecksum>1795898991</fileChecksum>
+    <configuration>
+        <name>Debug</name>
+        <outputs>
+            <file>$PROJ_DIR$\..\library\stm8s.h</file>
+            <file>$PROJ_DIR$\..\user\sec_message.h</file>
+            <file>$PROJ_DIR$\..\user\sec_convert.h</file>
+            <file>$PROJ_DIR$\..\user\sec_sys.h</file>
+            <file>$PROJ_DIR$\..\user\sec_answer.h</file>
+            <file>$PROJ_DIR$\..\user\sec_gpio.h</file>
+            <file>$PROJ_DIR$\..\user\sec_sht30.h</file>
+            <file>$PROJ_DIR$\..\user\sec_uart.h</file>
+            <file>$PROJ_DIR$\..\user\sec_delay.h</file>
+            <file>$PROJ_DIR$\..\user\sec_i2c.h</file>
+            <file>$PROJ_DIR$\..\user\sec_time.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\dv_conver.xcl</file>
+            <file>$PROJ_DIR$\..\user\dv_time.c</file>
+            <file>$PROJ_DIR$\..\user\dv_gpio.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\dv_uart.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\sec_sys.o</file>
+            <file>$PROJ_DIR$\..\user\dv_delay.c</file>
+            <file>$PROJ_DIR$\..\user\dv_uart.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\dv_ringbuffer.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\lib\dlstm8smn.a</file>
+            <file>$PROJ_DIR$\..\user\dv_sht30.c</file>
+            <file>$PROJ_DIR$\..\user\dv_sys.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\dv_time.o</file>
+            <file>$PROJ_DIR$\..\user\dv_device_command.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\dv_ringbuffer.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\sec_sht30.o</file>
+            <file>$PROJ_DIR$\..\user\dv_uart.h</file>
+            <file>$PROJ_DIR$\..\user\dv_gpio.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\dv_time.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\sec_delay.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\dv_device_command.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\sec_convert.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\config\lnkstm8s003f3.icf</file>
+            <file>$PROJ_DIR$\..\user\dv_answer.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\sec_time.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\dv_test.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\dv_device_command.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\dv_gpio.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\sec_answer.xcl</file>
+            <file>$PROJ_DIR$\..\user\dv_conver.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\dv_uart.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\dv_time.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\dv_delay.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\dv_sys.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\sec_answer.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\xtgmath.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\sec_message.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\dv_sys.xcl</file>
+            <file>$PROJ_DIR$\..\user\dv_conver.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\dv_conver.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+            <file>$PROJ_DIR$\..\user\dv_test.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\dv_device_command.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\dv_delay.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\dv_ringbuffer.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\dv_answer.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\sec_convert.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\ymath.h</file>
+            <file>$PROJ_DIR$\Debug\Exe\test.out</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\dv_answer.__cstat.et</file>
+            <file>$PROJ_DIR$\..\user\dv_ringbuffer.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\sec_delay.o</file>
+            <file>$PROJ_DIR$\..\user\dv_time.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\dv_sys.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\sec_sys.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\sec_message.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\dv_test.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\dv_test.xcl</file>
+            <file>$TOOLKIT_DIR$\lib\dbgstm8smd.a</file>
+            <file>$TOOLKIT_DIR$\lib\dlstm8smn.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\sec_uart.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\test.pbd</file>
+            <file>$PROJ_DIR$\Debug\Obj\dv_i2c.xcl</file>
+            <file>$PROJ_DIR$\..\user\dv_sys.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\sec_i2c.o</file>
+            <file>$PROJ_DIR$\..\user\dv_device_command.h</file>
+            <file>$PROJ_DIR$\..\user\dv_test.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\dv_gpio.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8s_it.xcl</file>
+            <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8s_it.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\dv_i2c.__cstat.et</file>
+            <file>$PROJ_DIR$\..\user\dv_i2c.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\dv_sht30.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\sec_convert.xcl</file>
+            <file>$PROJ_DIR$\..\user\dv_sht30.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\dv_uart.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+            <file>$PROJ_DIR$\..\user\dv_answer.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\dv_sht30.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\sec_i2c.xcl</file>
+            <file>$TOOLKIT_DIR$\inc\c\math.h</file>
+            <file>$PROJ_DIR$\..\user\dv_ringbuffer.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\sec_time.xcl</file>
+            <file>$PROJ_DIR$\..\library\stm8s_it.c</file>
+            <file>$PROJ_DIR$\..\user\main.c</file>
+            <file>$PROJ_DIR$\..\user\sec_convert.c</file>
+            <file>$PROJ_DIR$\..\user\sec_gpio.c</file>
+            <file>$PROJ_DIR$\..\user\sec_message.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\dv_answer.o</file>
+            <file>$PROJ_DIR$\..\user\sec_i2c.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\sec_gpio.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\sec_gpio.o</file>
+            <file>$PROJ_DIR$\..\user\sec_uart.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\sec_sht30.xcl</file>
+            <file>$PROJ_DIR$\..\user\sec_sys.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\dv_gpio.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\dv_delay.xcl</file>
+            <file>$PROJ_DIR$\..\user\sec_answer.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\sec_message.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\sec_uart.xcl</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+            <file>$PROJ_DIR$\..\user\dv_delay.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\dv_i2c.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm8s_it.__cstat.et</file>
+            <file>$PROJ_DIR$\..\user\dv_i2c.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\dv_sht30.xcl</file>
+            <file>$PROJ_DIR$\..\user\sec_time.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.xcl</file>
+            <file>$PROJ_DIR$\..\user\sec_sht30.c</file>
+            <file>$PROJ_DIR$\..\user\sec_delay.c</file>
+            <file>$PROJ_DIR$\..\library\stm8s_it.h</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 64</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\user\dv_time.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 45</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 23</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 29</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 70 0 87 27 56 90 93 122 52 96 22 1 60 120 66 118 77 65 37 55 2 11 53 121</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\user\dv_delay.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 115</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 58</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 46</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 122</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\user\dv_uart.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 44</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 94</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 15</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 27 22 0 87 11 120 66 118 77 65 37 55 53 121 95 99 63 49 14 96 1 60 2</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\user\dv_sht30.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 126</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 97</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 91</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 93 0 87 90</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\user\dv_device_command.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 40</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 31</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 57</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 52 0 87 83</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\user\dv_gpio.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 41</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 114</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 85</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 14 0 87</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\user\dv_answer.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 61</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 107</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 67</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 96 22 0 87 11 120 66 118 77 65 37 55 53 121 95 99 63 49 7</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\user\dv_conver.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 12</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 54</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\test.out</name>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 34 32 48 62 69 110 82 117 26 16 36 78 88 20 76</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\user\dv_sys.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 51</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 47</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 71</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 22 0 87 11 120 66 118 77 65 37 55 53 121 95 99 63 49 7</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\user\dv_test.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 75</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 39</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 74</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 56 0 87 90 27 93 122 52 96 22 1 60 120 66 118 77 65 37 55 2 11 53 121</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\user\dv_ringbuffer.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 25</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 59</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 19</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 68</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\library\stm8s_it.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 86</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 88</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 124</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 131 0 87</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\user\main.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 128</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 32</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 38</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 3 99 120 63 66 118 77 65 37 55 49 0 87 11 53 121 95 9 10 7 5 8 6 4 1 60 2</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\user\sec_convert.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 92</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 62</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 33</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 2 3 99 120 63 66 118 77 65 37 55 49 0 87 11 53 121 95 9 10 7 5 8 6 4 1 60</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\user\sec_gpio.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 109</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 110</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 5 0 87</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\user\sec_message.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 73</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 117</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 50</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 1 60 120 66 118 77 65 37 55 2 3 99 63 49 0 87 11 53 121 95 9 10 7 5 8 6 4</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\user\sec_i2c.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 98</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 82</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 9 0 87</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\user\sec_uart.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 119</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 78</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 7 3 99 120 63 66 118 77 65 37 55 49 0 87 11 53 121 95 9 10 5 8 6 4 1 60 2</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\user\sec_sys.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 72</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 16</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 3 99 120 63 66 118 77 65 37 55 49 0 87 11 53 121 95 9 10 7 5 8 6 4 1 60 2</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\user\sec_answer.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 42</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 48</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 4 3 99 120 63 66 118 77 65 37 55 49 0 87 11 53 121 95 9 10 7 5 8 6 2 1 60</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\user\dv_i2c.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 80</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 123</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 89</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 90 0 87</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\user\sec_time.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 101</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 36</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 10 0 87 7 3 99 120 63 66 118 77 65 37 55 49 11 53 121 95 9 5 8 6 4 1 60 2</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\user\sec_sht30.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 112</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 26</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 6 0 87 9</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\user\sec_delay.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 30</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 69</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 8</file>
+                </tool>
+            </inputs>
+        </file>
+    </configuration>
+    <configuration>
+        <name>Release</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>[REBUILD_ALL]</name>
+        </forcedrebuild>
+    </configuration>
+</project>

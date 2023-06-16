@@ -23,9 +23,9 @@
 
 if ($debugfile -eq "")
 {
-& "E:\IAR\common\bin\cspybat" -f "C:\Users\Admin\Desktop\Test_SEC\SEC_copy\DV-GW\DV\SHT30\project\settings\test.Debug.general.xcl" --backend -f "C:\Users\Admin\Desktop\Test_SEC\SEC_copy\DV-GW\DV\SHT30\project\settings\test.Debug.driver.xcl" 
+& "E:\IAR\common\bin\cspybat" -f "C:\Users\Admin\Desktop\Surveillance_equipment_Clover-1\1.Code\DV-GW\DV\SHT30\project\settings\test.Debug.general.xcl" --backend -f "C:\Users\Admin\Desktop\Surveillance_equipment_Clover-1\1.Code\DV-GW\DV\SHT30\project\settings\test.Debug.driver.xcl" 
 }
 else
 {
-& "E:\IAR\common\bin\cspybat" -f "C:\Users\Admin\Desktop\Test_SEC\SEC_copy\DV-GW\DV\SHT30\project\settings\test.Debug.general.xcl" --debug_file=$debugfile --backend -f "C:\Users\Admin\Desktop\Test_SEC\SEC_copy\DV-GW\DV\SHT30\project\settings\test.Debug.driver.xcl" 
+& "E:\IAR\common\bin\cspybat" -f "C:\Users\Admin\Desktop\Surveillance_equipment_Clover-1\1.Code\DV-GW\DV\SHT30\project\settings\test.Debug.general.xcl" --debug_file=$debugfile --backend -f "C:\Users\Admin\Desktop\Surveillance_equipment_Clover-1\1.Code\DV-GW\DV\SHT30\project\settings\test.Debug.driver.xcl" 
 }

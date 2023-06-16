@@ -1,0 +1,5 @@
+sht30.pbi: \
+  C:\Users\nhanma\Documents\github\Surveillance_equipment_Clover\1.Code\DV-GW\DV\1.SHT30\user\sht30.c \
+  C:\Users\nhanma\Documents\github\Surveillance_equipment_Clover\1.Code\DV-GW\DV\1.SHT30\user/sht30.h \
+  C:\Users\nhanma\Documents\github\Surveillance_equipment_Clover\1.Code\DV-GW\DV\1.SHT30\project\..\library\stm8s.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\intrinsics.h

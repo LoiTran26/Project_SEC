@@ -2156,6 +2156,9 @@
     <group>
         <name>Header</name>
         <file>
+            <name>$PROJ_DIR$\..\user\sec_adc.h</name>
+        </file>
+        <file>
             <name>$PROJ_DIR$\..\user\sec_answer.h</name>
         </file>
         <file>
@@ -2168,13 +2171,10 @@
             <name>$PROJ_DIR$\..\user\sec_gpio.h</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\user\sec_i2c.h</name>
-        </file>
-        <file>
             <name>$PROJ_DIR$\..\user\sec_message.h</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\user\sec_sht30.h</name>
+            <name>$PROJ_DIR$\..\user\sec_ntc.h</name>
         </file>
         <file>
             <name>$PROJ_DIR$\..\user\sec_sys.h</name>
@@ -2210,6 +2210,9 @@
             <name>$PROJ_DIR$\..\user\main.c</name>
         </file>
         <file>
+            <name>$PROJ_DIR$\..\user\sec_adc.c</name>
+        </file>
+        <file>
             <name>$PROJ_DIR$\..\user\sec_answer.c</name>
         </file>
         <file>
@@ -2222,13 +2225,10 @@
             <name>$PROJ_DIR$\..\user\sec_gpio.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\user\sec_i2c.c</name>
-        </file>
-        <file>
             <name>$PROJ_DIR$\..\user\sec_message.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\user\sec_sht30.c</name>
+            <name>$PROJ_DIR$\..\user\sec_ntc.c</name>
         </file>
         <file>
             <name>$PROJ_DIR$\..\user\sec_sys.c</name>

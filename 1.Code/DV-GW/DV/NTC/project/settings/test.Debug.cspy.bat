@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"E:\IAR\common\bin\cspybat" -f "C:\Users\Admin\Desktop\Surveillance_equipment_Clover-1\1.Code\DV-GW\DV\NTC\project\settings\test.Debug.general.xcl" --backend -f "C:\Users\Admin\Desktop\Surveillance_equipment_Clover-1\1.Code\DV-GW\DV\NTC\project\settings\test.Debug.driver.xcl" 
+"E:\IAR\common\bin\cspybat" -f "C:\Users\Admin\Desktop\Test_SEC\SEC_copy\DV-GW\DV\NTC\project\settings\test.Debug.general.xcl" --backend -f "C:\Users\Admin\Desktop\Test_SEC\SEC_copy\DV-GW\DV\NTC\project\settings\test.Debug.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"E:\IAR\common\bin\cspybat" -f "C:\Users\Admin\Desktop\Surveillance_equipment_Clover-1\1.Code\DV-GW\DV\NTC\project\settings\test.Debug.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\Admin\Desktop\Surveillance_equipment_Clover-1\1.Code\DV-GW\DV\NTC\project\settings\test.Debug.driver.xcl" 
+"E:\IAR\common\bin\cspybat" -f "C:\Users\Admin\Desktop\Test_SEC\SEC_copy\DV-GW\DV\NTC\project\settings\test.Debug.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\Admin\Desktop\Test_SEC\SEC_copy\DV-GW\DV\NTC\project\settings\test.Debug.driver.xcl" 
 
 @echo off 
 :end

@@ -1,0 +1,5 @@
+dv_i2c.pbi: \
+  C:\Users\Admin\Desktop\Surveillance_equipment_Clover-1\1.Code\DV-GW\DV\1.SHT30\user\dv_i2c.c \
+  C:\Users\Admin\Desktop\Surveillance_equipment_Clover-1\1.Code\DV-GW\DV\1.SHT30\user/dv_i2c.h \
+  C:\Users\Admin\Desktop\Surveillance_equipment_Clover-1\1.Code\DV-GW\DV\1.SHT30\project\..\library\stm8s.h \
+  E:\IAR\stm8\inc\c\intrinsics.h

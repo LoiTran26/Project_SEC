@@ -1,0 +1,6 @@
+sec_sht30.pbi: \
+  C:\Users\Admin\Desktop\Surveillance_equipment_Clover-1\1.Code\DV-GW\DV\AIR_PRESSURE\ -\ Copy\user\sec_sht30.c \
+  C:\Users\Admin\Desktop\Surveillance_equipment_Clover-1\1.Code\DV-GW\DV\AIR_PRESSURE\ -\ Copy\user/sec_sht30.h \
+  C:\Users\Admin\Desktop\Surveillance_equipment_Clover-1\1.Code\DV-GW\DV\AIR_PRESSURE\ -\ Copy\project\..\library\stm8s.h \
+  E:\IAR\stm8\inc\c\intrinsics.h \
+  C:\Users\Admin\Desktop\Surveillance_equipment_Clover-1\1.Code\DV-GW\DV\AIR_PRESSURE\ -\ Copy\user/sec_i2c.h
